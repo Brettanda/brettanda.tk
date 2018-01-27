@@ -25,7 +25,7 @@
 <!-- <div class="logo"><img src="images/Logo.png" alt="Logo"></div> -->
 <!-- <h3>Brett Anda</h3> -->
 <nav role="navigation">
-	<a href="#">&#9776; Menu</a>
+	<a>&#9776; Menu</a>
 	<a href="index.php">About<span class="extra"> Me</span></a>
 	<a href="contact.php">Contact<span class="extra"> Me</span></a>
 	<a href="http://portfolio.brettanda.tk"><span class="extra">My </span>Portfolio</a>

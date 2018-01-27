@@ -43,6 +43,7 @@
 		display: none;
 	}
 	nav a{
+		flex: 1;
 		text-decoration-line: none;
 		color: white;
 		padding: 1rem;
@@ -131,10 +132,7 @@
 		padding: 2rem;
 		text-align: justify;
 		background-color: darkred;
-	}
-	.extra{
-		display: none;
-	}*/	
+	}*/
 	main{
 		border: 2px solid black;
 		padding: 0rem;
@@ -143,21 +141,41 @@
 		background-image: url(images/Logo-1x.png);
 	}
 	nav{
-		display: none;
-		padding-top: 1rem;
+		display: flex;
+		flex-direction: column;
+		padding: 0rem;
+		font-size: 1rem;
 		overflow: hidden;
-		background: rgba(21,21,21,0.7);
+		background: black;
 		position: fixed;
-		width: 100%;
-		height: 100%;
+		width: 10rem;
+		height: 3rem;
 		top: 0;
 		left: 0;
+		transition: .5s;
+		background-color: transparent;
+		border: 2px solid rgba(0,0,0,0.39);
+		border-radius: 0 0 25px 0;
 	}
-	nav a:first-child{
+	nav a:first-of-type{
 		display: block;
 	}
+	nav a:hover, nav a:focus{
+		background: #FFDD00;
+		text-shadow: 0;
+	}
 	nav a{
-		line-height: 3rem;
+		flex: 1;
+		line-height: 1rem;
+		width: 100%;
+	}
+	nav:hover, nav:focus{
+		height: 15rem;
+		width: 100%;
+		text-align: center;
+		background-color: black;
+		border-radius: 0px;
+		border: 0px;
 	}
 	h1{
 		background-size: 100%;

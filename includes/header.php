@@ -21,7 +21,6 @@
 ?>
 <link rel="stylesheet"  href="styles.css">
 </head>
-
 <!-- <div class="logo"><img src="images/Logo.png" alt="Logo"></div> -->
 <!-- <h3>Brett Anda</h3> -->
 <nav role="navigation">
@@ -33,3 +32,4 @@
 </nav>
 <body>
 <main>
+<img class="release" src="images/release.png" alt="The Full Release Banner">

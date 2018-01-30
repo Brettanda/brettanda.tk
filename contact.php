@@ -15,7 +15,7 @@ include('includes/header.php'); ?>
 		
 		<label for="message" style="vertical-align: top;" >Message: </label>
 
-		<textarea disabled name="message" id="message" cols="30" rows="10" spellcheck="true" required placeholder="Your message to me."></textarea><br>
+		<textarea disabled name="message" id="message" cols="30" rows="10" spellcheck="true" required placeholder="Your message here."></textarea><br>
 
 		<label for="reset"></label>
 		<input name="reset" type="reset">	<input disabled type="submit">

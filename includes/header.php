@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<meta content="images/Logo.png" itemprop="image">
+<meta content="images/Logo-1x.png" itemprop="image">
+<link rel="icon" href="images/Logo-1x.png">
 <head>
 <meta charset="utf-8">
 <title><?php print($pageName);?> | Brett Anda</title>

@@ -8,7 +8,6 @@ if(date('Y')==2017){
 ?>
 <address>
 Written by Brett Anda.<br>
-Contact me at <a target="_new" href="mailto:brett.anda@edu.sait.ca">brett.anda@edu.sait.ca</a>
 </address>
 <p>&copy; Copyright <?php print($copyrightDate);?> Brett Anda. All Rights Reserved.</p>
 <a target="_new" href="contact.php">Contact Me</a>
